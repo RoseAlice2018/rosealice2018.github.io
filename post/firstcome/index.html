@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>JAVA核心技术  第四章 对象与类 第三部分 // My New Hugo Site</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://rosealice2018.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="JAVA核心技术  第四章 对象与类 第三部分"/>
+<meta name="twitter:description" content="4.7.4 包作用域  标记为public的部分，可以被任意的类使用； 标记为private的部分只能被定义他们的类使用。 如果没有指定public或private，这个部分可以被同一个包中的所有方法访问。  4.9 文档注释  类注释  /** * * * */  方法注释  /** * *@param *@return @throws */  域注释  /** * */  通用注释 @author 姓名 @version 文本 @ since 文本 @deprecated 文本 弃用 @see 引用  "/>
+
+    <meta property="og:title" content="JAVA核心技术  第四章 对象与类 第三部分" />
+<meta property="og:description" content="4.7.4 包作用域  标记为public的部分，可以被任意的类使用； 标记为private的部分只能被定义他们的类使用。 如果没有指定public或private，这个部分可以被同一个包中的所有方法访问。  4.9 文档注释  类注释  /** * * * */  方法注释  /** * *@param *@return @throws */  域注释  /** * */  通用注释 @author 姓名 @version 文本 @ since 文本 @deprecated 文本 弃用 @see 引用  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rosealice2018.github.io/post/firstcome/" />
+<meta property="article:published_time" content="2020-07-15T20:33:35+08:00" />
+<meta property="article:modified_time" content="2020-07-15T20:33:35+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://rosealice2018.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>My New Hugo Site</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">JAVA核心技术  第四章 对象与类 第三部分</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jul 15, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <h3 id="474-包作用域">4.7.4 包作用域</h3>
+<ul>
+<li>标记为public的部分，可以被任意的类使用；</li>
+<li>标记为private的部分只能被定义他们的类使用。</li>
+<li>如果没有指定public或private，这个部分可以被同一个包中的所有方法访问。</li>
+</ul>
+<h2 id="49-文档注释">4.9 文档注释</h2>
+<ul>
+<li>类注释</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">/**
+</span><span style="color:#75715e">*
+</span><span style="color:#75715e">*
+</span><span style="color:#75715e">*
+</span><span style="color:#75715e">*/</span>
+</code></pre></div><ul>
+<li>方法注释</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">/**
+</span><span style="color:#75715e">* 
+</span><span style="color:#75715e">*@param
+</span><span style="color:#75715e">*@return
+</span><span style="color:#75715e">@throws
+</span><span style="color:#75715e">*/</span>
+</code></pre></div><ul>
+<li>域注释</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">/**
+</span><span style="color:#75715e">*
+</span><span style="color:#75715e">*/</span>
+</code></pre></div><ul>
+<li>通用注释</li>
+<li>@author 姓名</li>
+<li>@version 文本</li>
+<li>@ since 文本</li>
+<li>@deprecated 文本 弃用</li>
+<li>@see 引用</li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
