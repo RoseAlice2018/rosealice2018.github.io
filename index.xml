@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>不停</title>
-    <link>https://rosealice.github.io/</link>
+    <link>https://rosealice2018.github.io/</link>
     <description>Recent content on 不停</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jul 2020 13:28:35 +0800</lastBuildDate>
     
-	<atom:link href="https://rosealice.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rosealice2018.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JAVA核心技术 第四章 类与对象 第二部分</title>
-      <link>https://rosealice.github.io/post/first/</link>
+      <link>https://rosealice2018.github.io/post/first/</link>
       <pubDate>Thu, 16 Jul 2020 13:28:35 +0800</pubDate>
       
-      <guid>https://rosealice.github.io/post/first/</guid>
+      <guid>https://rosealice2018.github.io/post/first/</guid>
       <description>4.4.4 工厂方法 1.静态方法
  无法命名构造器。 当使用构造器时，无法改变所构造的对象类型。  4.5 方法参数 1.方法参数的类型
  基本数据类型（数字，布尔值） 对象引用  2.重点：在JAVA语言中，对于方法参数中的对象引用，实际上是将对象引用进行拷贝，然后再拷贝的基础上进行操作。 eg:
@@ -25,10 +25,10 @@ public static void swap(Employee x,Employee y) { Employee temp=x; x=y; y=x; }  �
     
     <item>
       <title>JAVA核心技术  第四章 对象与类 第三部分</title>
-      <link>https://rosealice.github.io/post/firstcome/</link>
+      <link>https://rosealice2018.github.io/post/firstcome/</link>
       <pubDate>Wed, 15 Jul 2020 20:33:35 +0800</pubDate>
       
-      <guid>https://rosealice.github.io/post/firstcome/</guid>
+      <guid>https://rosealice2018.github.io/post/firstcome/</guid>
       <description>4.7.4 包作用域  标记为public的部分，可以被任意的类使用； 标记为private的部分只能被定义他们的类使用。 如果没有指定public或private，这个部分可以被同一个包中的所有方法访问。  4.9 文档注释  类注释  /** * * * */  方法注释  /** * *@param *@return @throws */  域注释  /** * */  通用注释 @author 姓名 @version 文本 @ since 文本 @deprecated 文本 弃用 @see 引用  </description>
     </item>
     
