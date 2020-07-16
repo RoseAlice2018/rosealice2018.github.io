@@ -3,26 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rosealice2018.github.io/post/firstcome/</loc>
+    <loc>https://rosealice.github.io/post/first/</loc>
+    <lastmod>2020-07-16T13:28:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rosealice.github.io/post/</loc>
+    <lastmod>2020-07-16T13:28:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rosealice.github.io/</loc>
+    <lastmod>2020-07-16T13:28:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rosealice.github.io/post/firstcome/</loc>
     <lastmod>2020-07-15T20:33:35+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rosealice2018.github.io/</loc>
-    <lastmod>2020-07-15T20:33:35+08:00</lastmod>
+    <loc>https://rosealice.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://rosealice2018.github.io/post/</loc>
-    <lastmod>2020-07-15T20:33:35+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rosealice2018.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rosealice2018.github.io/tags/</loc>
+    <loc>https://rosealice.github.io/tags/</loc>
   </url>
   
 </urlset>

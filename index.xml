@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://rosealice2018.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>不停</title>
+    <link>https://rosealice.github.io/</link>
+    <description>Recent content on 不停</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2020 20:33:35 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2020 13:28:35 +0800</lastBuildDate>
     
-	<atom:link href="https://rosealice2018.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rosealice.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>JAVA核心技术 第四章 类与对象 第二部分</title>
+      <link>https://rosealice.github.io/post/first/</link>
+      <pubDate>Thu, 16 Jul 2020 13:28:35 +0800</pubDate>
+      
+      <guid>https://rosealice.github.io/post/first/</guid>
+      <description>4.4.4 工厂方法 1.静态方法
+ 无法命名构造器。 当使用构造器时，无法改变所构造的对象类型。  4.5 方法参数 1.方法参数的类型
+ 基本数据类型（数字，布尔值） 对象引用  2.重点：在JAVA语言中，对于方法参数中的对象引用，实际上是将对象引用进行拷贝，然后再拷贝的基础上进行操作。 eg:
+public static void swap(Employee x,Employee y) { Employee temp=x; x=y; y=x; }  这里并不能实现x与y的交换，因为x和y是拷贝的引用副本，在方法执行完毕后就会消失。 实际上，对象引用是按值传递的。  4.6 对象构造 4.6.1 重载  多个方法，有相同的名字，不同的参数，便产生了重载。 返回类型并非方法签名的一部分，同名且同参数的方法，不能因为返回值不同而认为重载。  4.6.2 无参数的构造器  仅当类没有提供任何构造器的时候，系统才会提供一个默认的构造器。如果在编写类的时候，给出了构造器，则（如果需要默认构造器）必须自己实现。  4.6.2 显示域初始化  在调用构造器之前，先进行赋值操作。（当一个类的所有构造器都希望将相同的值赋值给某个特定实例域时，十分有用）。  public static class Employee{ private static int nextId; private int id=assignId(); private static int assignId() { int r=nextId; nextId++; return r; } } 在C++中，不能直接初始化类的实例域。所有的域必须在构造器中设置。但是有一个特殊的初始化列表语法，如下所示</description>
+    </item>
+    
+    <item>
       <title>JAVA核心技术  第四章 对象与类 第三部分</title>
-      <link>https://rosealice2018.github.io/post/firstcome/</link>
+      <link>https://rosealice.github.io/post/firstcome/</link>
       <pubDate>Wed, 15 Jul 2020 20:33:35 +0800</pubDate>
       
-      <guid>https://rosealice2018.github.io/post/firstcome/</guid>
+      <guid>https://rosealice.github.io/post/firstcome/</guid>
       <description>4.7.4 包作用域  标记为public的部分，可以被任意的类使用； 标记为private的部分只能被定义他们的类使用。 如果没有指定public或private，这个部分可以被同一个包中的所有方法访问。  4.9 文档注释  类注释  /** * * * */  方法注释  /** * *@param *@return @throws */  域注释  /** * */  通用注释 @author 姓名 @version 文本 @ since 文本 @deprecated 文本 弃用 @see 引用  </description>
     </item>
     
