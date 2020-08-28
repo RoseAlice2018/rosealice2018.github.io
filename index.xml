@@ -6,10 +6,19 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2020 13:28:35 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 23:13:12 +0800</lastBuildDate>
     
 	<atom:link href="https://rosealice2018.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Newblog</title>
+      <link>https://rosealice2018.github.io/posts/newblog/</link>
+      <pubDate>Fri, 28 Aug 2020 23:13:12 +0800</pubDate>
+      
+      <guid>https://rosealice2018.github.io/posts/newblog/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>JAVA核心技术 第四章 类与对象 第二部分</title>
